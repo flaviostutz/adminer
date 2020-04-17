@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  adminer:
+    build: .
+    image: flaviostutz/adminer
+    ports:
+      - "8080:8080"
+
